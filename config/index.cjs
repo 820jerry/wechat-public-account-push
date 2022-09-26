@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ol36d6ZzOUqSHbNtwzF9My-W4iig',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '0UFAm5m7ffU0Fxpi0mmveGpiuatkamNHV_n4uPO1oLg',
+      useTemplateId: 'oSMpuGJ8DJEIYK5O5ruusd1wxuFsmfZHgFD8YrAo-Vk',
       // 所在省份
       province: '广西',
       // 所在城市
@@ -96,9 +96,9 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-03-27' },
-        // 结婚纪念日
+        // **日
         { keyword: 'marry_day', date: '2022-09-09' },
-        // 退伍日
+        // **日
         { keyword: 'ex_day', date: '2022-09-10' }
       ],
       // 课程表相关配置
@@ -223,7 +223,7 @@ const USER_CONFIG = {
       // 一般都填自己
       name: '自己',
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ol36d6ZzOUqSHbNtwzF9My-W4iig',
+      id: '',
     }
     // 你可以不断按格式往下增加
     // ...
@@ -234,7 +234,6 @@ const USER_CONFIG = {
    */
 
   /** 天气相关 */
-
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: '广西',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
@@ -310,7 +309,7 @@ const USER_CONFIG = {
    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
+    { keyword: 'encourage_oneself', contents: '隐匿与聚光灯外，观赏着主角的悲欢离合，任由内心翻涌的爱意淹没于无人问津的角落。' },
     // 这样配置的话，就会每次随机选一句话发送
     {
       keyword: 'lover_prattle',
