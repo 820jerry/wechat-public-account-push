@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ol36d6ZzOUqSHbNtwzF9My-W4iig',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'YdulP1Q9WYCy_qUltO9f4FzULdrPvDFVOcvnKjXNidM',
+      useTemplateId: 'E8AtX06LNSPFWUSouNqV3dN8ydNkDbWn1L33Vb2X30U',
       // 所在省份
       province: '广西',
       // 所在城市
@@ -82,15 +82,12 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '2003', date: '09-09',
+          type: '*生日', name: '乖乖', year: '2003', date: '09-09',
         },
         {
           type: '节日', name: '遇见乖乖', year: '2022', date: '03-23',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '乖乖', year: '2003', date: '10-04',
-        },
         {
           type: '节日', name: '表白纪念日', year: '2022', date: '03-27',
         }
