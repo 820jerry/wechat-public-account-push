@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ol36d6ZzOUqSHbNtwzF9My-W4iig',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'E8AtX06LNSPFWUSouNqV3dN8ydNkDbWn1L33Vb2X30U',
+      useTemplateId: '1TRGs0LSE8eHIVew5OW5nv1svP2rwvozk4aIeOaDN_c',
       // 所在省份
       province: '广西',
       // 所在城市
@@ -95,7 +95,7 @@ const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2022-03-27' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
         // 退伍日
@@ -293,7 +293,7 @@ const USER_CONFIG = {
    * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    { keyword: 'love_day', date: '2022-09-08' },
+    { keyword: 'love_day', date: '2022-03-27' },
     // 结婚纪念日
     { keyword: 'marry_day', date: '2022-09-09' },
     // 退伍日
