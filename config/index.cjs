@@ -31,7 +31,7 @@ const USER_CONFIG = {
     // 金山每日一句
     CIBA: false,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
     earthyLoveWords: false,
     // 朋友圈文案
@@ -42,7 +42,7 @@ const USER_CONFIG = {
     poetry: false,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ol36d6ZzOUqSHbNtwzF9My-W4iig',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '_rpz22G2CLnJRk3qdFRAbBxAbW7h-L4H38qZd4RHEb4',
+      useTemplateId: '74OXK3Be-7rmbKn16-6punVyD-sAt_AJ_HJ8lg78kL0',
       // 所在省份
       province: '广西',
       // 所在城市
