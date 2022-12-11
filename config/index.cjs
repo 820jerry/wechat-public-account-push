@@ -31,9 +31,9 @@ const USER_CONFIG = {
     // 金山每日一句
     CIBA: false,
     // 每日一言
-    oneTalk: true,
+    oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ol36d6ZzOUqSHbNtwzF9My-W4iig',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'K0PtAA5zOAa4BNbE-1NqUXdMK0KqeFiLu89YiY8w3Ss',
+      useTemplateId: 's0eVIgg9CzEYUPYiO3lNLyakA6AZD1d8Pty7JAJYZ2k',
       // 所在省份
       province: '广西',
       // 所在城市
@@ -209,9 +209,9 @@ const USER_CONFIG = {
 
   /** 天气相关 */
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: '广西',
+  PROVINCE: '重庆',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '南宁',
+  CITY: '开州',
 
   /** 重要节日相关 */
 
@@ -235,14 +235,14 @@ const USER_CONFIG = {
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
     {
-      type: '*生日', name: '老婆', year: '1996', date: '09-09', isShowAge: true,
+      type: '*生日', name: '风车车', year: '2002', date: '08-20', isShowAge: true,
     },
     {
-      type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
+      type: '节日', name: '结婚纪念日', year: '2022', date: '03-27',
     },
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {
-      type: '生日', name: '李四', year: '2003', date: '09-31', isShowAge: true,
+      type: '生日', name: '李四', year: '2002', date: '09-26', isShowAge: true,
     },
     {
       type: '节日', name: '被搭讪纪念日', year: '2021', date: '03-23',
