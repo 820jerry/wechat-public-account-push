@@ -231,16 +231,10 @@ const USER_CONFIG = {
     {
       type: '*生日', name: '风车车', year: '2002', date: '08-20', isShowAge: true,
     },
-    {
-      type: '节日', name: '结婚纪念日', year: '2022', date: '03-27',
-    },
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {
-      type: '生日', name: '李四', year: '2002', date: '09-26', isShowAge: true,
+      type: '生日', name: '风车车', year: '2002', date: '09-26', isShowAge: true,
     },
-    {
-      type: '节日', name: '被搭讪纪念日', year: '2021', date: '03-23',
-    }
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -250,7 +244,7 @@ const USER_CONFIG = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 3,
 
   /** 日期相关 */
 
